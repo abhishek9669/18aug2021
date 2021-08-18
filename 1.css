@@ -1,0 +1,100 @@
+.myheart{
+    display: block;
+    margin: 100px auto;
+    animation-name: abc;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes abc{
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.5);
+
+    }
+    
+}
+.myheart2{
+    display: block;
+    margin:  150px auto;
+    animation-name: xyz ;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes xyz{
+    0%{
+        transform:scale(1)
+    }
+    5%{
+        transform:scale(1.2)
+    }
+    10%{
+        transform:scale(1.1)
+    }
+    15%{
+        transform:scale(1.25)
+    }
+    50%{
+        transform:scale(1)
+    }
+    100%{
+        transform:scale(1)
+    }
+    
+}
+
+
+#p{
+    width: 500px;
+    height: 1500px;
+    margin: auto;
+    border: blue 10px double;
+}
+body{
+    background:black;
+}
+#l{
+    width: 400px;
+    height: 50px;
+    background: turquoise;
+    margin: auto;
+    border: rgb(0, 255, 21) 10px solid;
+    
+}
+.myheart3{
+    display: block;
+    margin:  150px auto;
+    animation-name: xyz ;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes xyz{
+    0%{
+        transform:scale(1)
+    }
+    5%{
+        transform:scale(1.2)
+    }
+    10%{
+        transform:scale(1.1)
+    }
+    15%{
+        transform:scale(1.25)
+    }
+    50%{
+        transform:scale(1)
+    }
+    100%{
+        transform:scale(1)
+    }
+    
+}
+
